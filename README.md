@@ -15,6 +15,13 @@
 | 5     |      |      |
 
 
+---
+## Useful Tools
+#### Fake Img
+- set this src URL to get resized-image`<img src="https://fakeimg.pl/250x100/">`
+
+
+
 ## Target Emmet Cmd
 - Just organize some good emmet cmds to improve I finish this kata.
 ### Syntax

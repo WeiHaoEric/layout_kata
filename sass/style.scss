@@ -1,0 +1,42 @@
+@import 'reset';
+
+.wrapper{
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    li{
+        display: flex;
+        // background: #aaa;
+        margin-bottom: 24px;
+    }
+}
+
+.news{
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    // padding: 0 1.25rem;
+    margin: 0 20px;
+
+    
+    h2{
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    p{
+        line-height: 1.5;
+    }
+}
+
+footer{
+    background-color: cadetblue;
+    padding: 3rem 0;
+    font-size: 16px;
+    line-height: 1.5;
+}

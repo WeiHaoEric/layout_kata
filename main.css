@@ -52,40 +52,33 @@ table {
   border-spacing: 0;
 }
 
-.wrapper {
+.content {
   max-width: 640px;
   margin: 0 auto;
-  background-color: blanchedalmond;
 }
 
-.container {
+.box {
   display: flex;
-  justify-content: flex-start;
 }
-.container li {
+.box li {
   display: flex;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
-
-.news {
+.box .news {
   width: 288px;
   display: flex;
   flex-direction: column;
+  background-color: #5f5fb5;
   margin: 0 20px;
-}
-.news h2 {
-  font-size: 20px;
-  line-height: 1.2;
-}
-.news p {
-  line-height: 1.5;
 }
 
 footer {
-  background-color: cadetblue;
-  padding: 3rem 0;
+  background-color: #76b117;
+}
+footer p {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.5rem;
+  padding: 3rem 0;
 }
 
 /*# sourceMappingURL=main.css.map */

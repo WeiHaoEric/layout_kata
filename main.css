@@ -52,31 +52,34 @@ table {
   border-spacing: 0;
 }
 
-.container {
+.wrap {
   margin: 0 auto;
   max-width: 640px;
 }
-.container .box {
+.wrap .box {
   display: flex;
-  margin: 0 20px;
 }
-.container .box li {
+.wrap .box li {
   display: flex;
   margin-bottom: 24px;
 }
-.container .box li h2 {
-  line-height: 1.5;
+.wrap .box li .news {
+  margin: 0 20px;
+}
+.wrap .box li h2 {
+  line-height: 1.2;
   font-size: 20px;
 }
-.container .box li p {
+.wrap .box li p {
   line-height: 1.5;
   font-size: 16px;
 }
-.container footer {
+.wrap footer {
   padding: 3rem;
 }
-.container footer p {
-  line-height: 1.5rem;
+.wrap footer p {
+  line-height: 1.5;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=main.css.map */

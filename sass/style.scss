@@ -1,19 +1,22 @@
 @import "reset";
 
-.container{
+.wrap{
   margin: 0 auto;
   max-width: 640px;
 
   .box{
     display: flex;
-    margin: 0 20px;
 
     li{
       display: flex;
       margin-bottom: 24px;
 
+      .news{
+        margin: 0 20px;
+      }
+
       h2{
-        line-height: 1.5;
+        line-height: 1.2;
         font-size: 20px;
       }
       p{
@@ -25,8 +28,10 @@
 
   footer{
     padding: 3rem;
+
     p{
-      line-height: 1.5rem;
+      line-height: 1.5;
+      font-size: 16px;
     }
   }
 }

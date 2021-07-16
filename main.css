@@ -53,36 +53,30 @@ table {
 }
 
 .container {
-  max-width: 640px;
   margin: 0 auto;
+  max-width: 640px;
 }
-
-.box {
+.container .box {
   display: flex;
+  margin: 0 20px;
 }
-.box li {
+.container .box li {
   display: flex;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
-.box .news {
-  width: 264px;
-  padding: 0 20px;
-}
-.box .news h2 {
+.container .box li h2 {
+  line-height: 1.5;
   font-size: 20px;
-  line-height: 1.2;
 }
-.box .news p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-footer {
-  padding: 1.5rem;
-}
-footer p {
+.container .box li p {
   line-height: 1.5;
   font-size: 16px;
+}
+.container footer {
+  padding: 3rem;
+}
+.container footer p {
+  line-height: 1.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */

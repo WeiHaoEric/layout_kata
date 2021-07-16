@@ -52,7 +52,7 @@ table {
   border-spacing: 0;
 }
 
-.content {
+.container {
   max-width: 640px;
   margin: 0 auto;
 }
@@ -65,20 +65,24 @@ table {
   margin-bottom: 1.5rem;
 }
 .box .news {
-  width: 288px;
-  display: flex;
-  flex-direction: column;
-  background-color: #5f5fb5;
-  margin: 0 20px;
+  width: 264px;
+  padding: 0 20px;
+}
+.box .news h2 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.box .news p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 footer {
-  background-color: #76b117;
+  padding: 1.5rem;
 }
 footer p {
+  line-height: 1.5;
   font-size: 16px;
-  line-height: 1.5rem;
-  padding: 3rem 0;
 }
 
 /*# sourceMappingURL=main.css.map */

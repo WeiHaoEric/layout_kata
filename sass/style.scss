@@ -1,37 +1,36 @@
 @import "reset";
 
-.content{
+.container {
   max-width: 640px;
   margin: 0 auto;
 }
 
 .box {
-  
   display: flex;
-  // border: solid 1px red;
-  
-  
+
   li {
     display: flex;
     margin-bottom: 1.5rem;
   }
-  .news {
-    width: 288px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(95, 95, 181);
-    margin: 0 20px;
-  }
 
+  .news {
+    width: 264px;
+    padding: 0 20px;
+    h2 {
+      font-size: 20px;
+      line-height: 1.2;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
 }
 
 footer{
-  
+  padding: 1.5rem;
   p{
+    line-height: 1.5;
     font-size: 16px;
-    line-height: 1.5rem;
-    padding: 3rem 0;
   }
-
-  background-color: rgb(118, 177, 23);
 }
